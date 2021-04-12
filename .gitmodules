@@ -1,0 +1,6 @@
+[submodule "kicad/random-keyboard-parts.pretty"]
+	path = kicad/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "kicad/kbd"]
+	path = kicad/kbd
+	url = https://github.com/foostan/kbd.git
