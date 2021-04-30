@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name kbd)(type Legacy)(uri /home/mangoiv/Devel/keyboards/handbrush/kicad/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
-  (lib (name Seeeduino_XIAO)(type Legacy)(uri "/home/mangoiv/Devel/keyboards/handbrush/kicad/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
-  (lib (name random-keyboard-parts)(type Legacy)(uri "/home/mangoiv/Devel/keyboards/handbrush/kicad/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
-  (lib (name MX_Alps_Hybrid)(type Legacy)(uri /home/mangoiv/Devel/keyboards/handbrush/kicad/otherparts.pretty/MX_Alps_Hybrid.lib)(options "")(descr ""))
-)

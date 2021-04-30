@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri /home/mangoiv/Devel/keyboards/pinsel/kicad/right/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name otherparts)(type KiCad)(uri /home/mangoiv/Devel/keyboards/pinsel/kicad/right/otherparts.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri /home/mangoiv/Devel/keyboards/pinsel/kicad/right/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name "Seeeduino XIAO KICAD")(type KiCad)(uri "/home/mangoiv/Devel/keyboards/pinsel/kicad/right/Seeeduino XIAO KICAD")(options "")(descr ""))
+  (lib (name mbk)(type KiCad)(uri /home/mangoiv/Devel/keyboards/pinsel/kicad/right/mbk_footprints/mbk.pretty)(options "")(descr ""))
+  (lib (name graphics)(type KiCad)(uri /home/mangoiv/Devel/keyboards/pinsel/kicad/right/graphics.pretty)(options "")(descr ""))
+)

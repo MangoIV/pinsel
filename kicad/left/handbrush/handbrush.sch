@@ -1,0 +1,688 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR0101
+U 1 1 60747BDA
+P 4000 2900
+F 0 "#PWR0101" H 4000 2750 50  0001 C CNN
+F 1 "+5V" H 4015 3073 50  0000 C CNN
+F 2 "" H 4000 2900 50  0001 C CNN
+F 3 "" H 4000 2900 50  0001 C CNN
+	1    4000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 6074866A
+P 4200 3250
+F 0 "#PWR0102" H 4200 3100 50  0001 C CNN
+F 1 "+3V3" H 4215 3423 50  0000 C CNN
+F 2 "" H 4200 3250 50  0001 C CNN
+F 3 "" H 4200 3250 50  0001 C CNN
+	1    4200 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2950 4200
+NoConn ~ 3150 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 6075645C
+P 5650 2700
+F 0 "MX2" H 5683 2923 60  0000 C CNN
+F 1 "MX-NoLED" H 5683 2849 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5025 2675 60  0001 C CNN
+F 3 "" H 5025 2675 60  0001 C CNN
+	1    5650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 60756462
+P 6000 2700
+F 0 "MX5" H 6033 2923 60  0000 C CNN
+F 1 "MX-NoLED" H 6033 2849 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5375 2675 60  0001 C CNN
+F 3 "" H 5375 2675 60  0001 C CNN
+	1    6000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 60756468
+P 6350 2700
+F 0 "MX8" H 6383 2923 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 2849 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5725 2675 60  0001 C CNN
+F 3 "" H 5725 2675 60  0001 C CNN
+	1    6350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 6075646E
+P 6700 2700
+F 0 "MX11" H 6733 2923 60  0000 C CNN
+F 1 "MX-NoLED" H 6733 2849 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 6075 2675 60  0001 C CNN
+F 3 "" H 6075 2675 60  0001 C CNN
+	1    6700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 60756474
+P 7050 2700
+F 0 "MX15" H 7083 2923 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 2849 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 6425 2675 60  0001 C CNN
+F 3 "" H 6425 2675 60  0001 C CNN
+	1    7050 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 6075719A
+P 5650 3350
+F 0 "MX3" H 5683 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 5683 3499 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5025 3325 60  0001 C CNN
+F 3 "" H 5025 3325 60  0001 C CNN
+	1    5650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 607571A0
+P 6000 3350
+F 0 "MX6" H 6033 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 6033 3499 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5375 3325 60  0001 C CNN
+F 3 "" H 5375 3325 60  0001 C CNN
+	1    6000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 607571A6
+P 6350 3350
+F 0 "MX9" H 6383 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 3499 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5725 3325 60  0001 C CNN
+F 3 "" H 5725 3325 60  0001 C CNN
+	1    6350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 607571AC
+P 6700 3350
+F 0 "MX12" H 6733 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 6733 3499 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 6075 3325 60  0001 C CNN
+F 3 "" H 6075 3325 60  0001 C CNN
+	1    6700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 60758BC9
+P 6700 3950
+F 0 "MX13" H 6733 4173 60  0000 C CNN
+F 1 "MX-NoLED" H 6733 4099 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 6075 3925 60  0001 C CNN
+F 3 "" H 6075 3925 60  0001 C CNN
+	1    6700 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 2350 0    50   Input ~ 0
+row0
+Text GLabel 5200 3050 0    50   Input ~ 0
+row1
+Text GLabel 5200 3700 0    50   Input ~ 0
+row2
+Text GLabel 5200 4300 0    50   Input ~ 0
+row3
+NoConn ~ 2850 2450
+NoConn ~ 3000 2450
+NoConn ~ 3150 2450
+NoConn ~ 3300 2450
+Text GLabel 3850 3350 2    50   Input ~ 0
+row0
+Text GLabel 3850 3500 2    50   Input ~ 0
+row1
+Text GLabel 3850 3650 2    50   Input ~ 0
+row2
+Text GLabel 2200 2900 0    50   Input ~ 0
+col0
+Text GLabel 2200 3050 0    50   Input ~ 0
+col1
+Text GLabel 2200 3200 0    50   Input ~ 0
+col2
+Text GLabel 2200 3350 0    50   Input ~ 0
+col3
+$Comp
+L Seeeduino_XIAO:SeeeduinoXIAO U1
+U 1 1 6074486D
+P 3050 3350
+F 0 "U1" H 3025 2411 50  0000 C CNN
+F 1 "SeeeduinoXIAO" H 3025 2320 50  0000 C CNN
+F 2 "Seeeduino XIAO KICAD:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM" H 2700 3550 50  0001 C CNN
+F 3 "" H 2700 3550 50  0001 C CNN
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 60816823
+P 3600 5050
+F 0 "J1" H 3680 5042 50  0000 L CNN
+F 1 "Conn_01x04" H 3680 4951 50  0000 L CNN
+F 2 "Keebio-Parts:TRRS-PJ-320A" H 3600 5050 50  0001 C CNN
+F 3 "~" H 3600 5050 50  0001 C CNN
+	1    3600 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 3500 0    50   Input ~ 0
+sda
+Text GLabel 2200 3650 0    50   Input ~ 0
+scl
+Text GLabel 3400 5150 0    50   Input ~ 0
+sda
+Text GLabel 3400 5250 0    50   Input ~ 0
+scl
+$Comp
+L Device:R_Small R1
+U 1 1 608323BB
+P 4400 4700
+F 0 "R1" V 4204 4700 50  0000 C CNN
+F 1 "4.7k" V 4295 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4400 4700 50  0001 C CNN
+F 3 "~" H 4400 4700 50  0001 C CNN
+	1    4400 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 608327E6
+P 4650 4800
+F 0 "R2" V 4454 4800 50  0000 C CNN
+F 1 "4.7k" V 4545 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4650 4800 50  0001 C CNN
+F 3 "~" H 4650 4800 50  0001 C CNN
+	1    4650 4800
+	0    1    1    0   
+$EndComp
+Text GLabel 4150 4700 0    50   Input ~ 0
+sda
+Text GLabel 4150 4800 0    50   Input ~ 0
+scl
+Wire Wire Line
+	4150 4700 4300 4700
+Wire Wire Line
+	4550 4800 4150 4800
+$Comp
+L power:GND #PWR0103
+U 1 1 607459DA
+P 4000 3000
+F 0 "#PWR0103" H 4000 2750 50  0001 C CNN
+F 1 "GND" H 4005 2827 50  0000 C CNN
+F 2 "" H 4000 3000 50  0001 C CNN
+F 3 "" H 4000 3000 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3050 3900 3050
+Wire Wire Line
+	3900 3050 3900 3000
+Wire Wire Line
+	3900 3000 4000 3000
+Wire Wire Line
+	3850 2900 4000 2900
+Wire Wire Line
+	3850 3200 3900 3200
+Wire Wire Line
+	3900 3200 3900 3250
+Wire Wire Line
+	3900 3250 4200 3250
+$Comp
+L power:+5V #PWR0104
+U 1 1 6085BB0C
+P 3050 5050
+F 0 "#PWR0104" H 3050 4900 50  0001 C CNN
+F 1 "+5V" H 3065 5223 50  0000 C CNN
+F 2 "" H 3050 5050 50  0001 C CNN
+F 3 "" H 3050 5050 50  0001 C CNN
+	1    3050 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 4950 3050 4950
+Wire Wire Line
+	3400 5050 3050 5050
+$Comp
+L power:GND #PWR0105
+U 1 1 6085F33D
+P 3050 4950
+F 0 "#PWR0105" H 3050 4700 50  0001 C CNN
+F 1 "GND" H 3055 4777 50  0000 C CNN
+F 2 "" H 3050 4950 50  0001 C CNN
+F 3 "" H 3050 4950 50  0001 C CNN
+	1    3050 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 6086E291
+P 4550 4550
+F 0 "#PWR0106" H 4550 4400 50  0001 C CNN
+F 1 "+3V3" H 4565 4723 50  0000 C CNN
+F 2 "" H 4550 4550 50  0001 C CNN
+F 3 "" H 4550 4550 50  0001 C CNN
+	1    4550 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4700 4550 4700
+Wire Wire Line
+	4550 4700 4550 4550
+$Comp
+L power:+3V3 #PWR0107
+U 1 1 6086F47B
+P 4850 4700
+F 0 "#PWR0107" H 4850 4550 50  0001 C CNN
+F 1 "+3V3" H 4865 4873 50  0000 C CNN
+F 2 "" H 4850 4700 50  0001 C CNN
+F 3 "" H 4850 4700 50  0001 C CNN
+	1    4850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4800 4850 4800
+Wire Wire Line
+	4850 4800 4850 4700
+Connection ~ 7200 1950
+Wire Wire Line
+	7200 1650 7200 1950
+Connection ~ 6850 1950
+Wire Wire Line
+	6850 1650 6850 1950
+Connection ~ 6500 1950
+Wire Wire Line
+	6500 1650 6500 1950
+Connection ~ 6150 1950
+Wire Wire Line
+	6150 1650 6150 1950
+Connection ~ 5800 1950
+Wire Wire Line
+	5800 1650 5800 1950
+Text GLabel 7200 1650 1    50   Input ~ 0
+col4
+Text GLabel 6850 1650 1    50   Input ~ 0
+col3
+Text GLabel 6500 1650 1    50   Input ~ 0
+col2
+Text GLabel 6150 1650 1    50   Input ~ 0
+col1
+Text GLabel 5800 1650 1    50   Input ~ 0
+col0
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 60754434
+P 7050 2000
+F 0 "MX14" H 7083 2223 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 2149 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 6425 1975 60  0001 C CNN
+F 3 "" H 6425 1975 60  0001 C CNN
+	1    7050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 60752E96
+P 6700 2000
+F 0 "MX10" H 6733 2223 60  0000 C CNN
+F 1 "MX-NoLED" H 6733 2149 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 6075 1975 60  0001 C CNN
+F 3 "" H 6075 1975 60  0001 C CNN
+	1    6700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 6075199C
+P 6350 2000
+F 0 "MX7" H 6383 2223 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 2149 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5725 1975 60  0001 C CNN
+F 3 "" H 5725 1975 60  0001 C CNN
+	1    6350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 607515B9
+P 6000 2000
+F 0 "MX4" H 6033 2223 60  0000 C CNN
+F 1 "MX-NoLED" H 6033 2149 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5375 1975 60  0001 C CNN
+F 3 "" H 5375 1975 60  0001 C CNN
+	1    6000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 6075057B
+P 5650 2000
+F 0 "MX1" H 5683 2223 60  0000 C CNN
+F 1 "MX-NoLED" H 5683 2149 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 5025 1975 60  0001 C CNN
+F 3 "" H 5025 1975 60  0001 C CNN
+	1    5650 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2350 5600 2350
+$Comp
+L Device:D_Small D1
+U 1 1 608B4651
+P 5600 2250
+F 0 "D1" V 5646 2180 50  0000 R CNN
+F 1 "D_Small" V 5555 2180 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 5600 2250 50  0001 C CNN
+F 3 "~" V 5600 2250 50  0001 C CNN
+	1    5600 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 608B4E06
+P 5950 2250
+F 0 "D4" V 5996 2180 50  0000 R CNN
+F 1 "D_Small" V 5905 2180 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 5950 2250 50  0001 C CNN
+F 3 "~" V 5950 2250 50  0001 C CNN
+	1    5950 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 608B5137
+P 6300 2250
+F 0 "D7" V 6346 2180 50  0000 R CNN
+F 1 "D_Small" V 6255 2180 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6300 2250 50  0001 C CNN
+F 3 "~" V 6300 2250 50  0001 C CNN
+	1    6300 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 608B54C3
+P 6650 2250
+F 0 "D10" V 6696 2180 50  0000 R CNN
+F 1 "D_Small" V 6605 2180 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 2250 50  0001 C CNN
+F 3 "~" V 6650 2250 50  0001 C CNN
+	1    6650 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 608B58B4
+P 7000 2250
+F 0 "D14" V 7046 2180 50  0000 R CNN
+F 1 "D_Small" V 6955 2180 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7000 2250 50  0001 C CNN
+F 3 "~" V 7000 2250 50  0001 C CNN
+	1    7000 2250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5600 2350
+Wire Wire Line
+	5600 2350 5950 2350
+Connection ~ 5950 2350
+Wire Wire Line
+	5950 2350 6300 2350
+Connection ~ 6300 2350
+Wire Wire Line
+	6300 2350 6650 2350
+Connection ~ 6650 2350
+Wire Wire Line
+	6650 2350 7000 2350
+Wire Wire Line
+	5200 3050 5600 3050
+$Comp
+L Device:D_Small D2
+U 1 1 608C8793
+P 5600 2950
+F 0 "D2" V 5646 2880 50  0000 R CNN
+F 1 "D_Small" V 5555 2880 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 5600 2950 50  0001 C CNN
+F 3 "~" V 5600 2950 50  0001 C CNN
+	1    5600 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5600 3050
+Wire Wire Line
+	5600 3050 5950 3050
+$Comp
+L Device:D_Small D5
+U 1 1 608C8E3F
+P 5950 2950
+F 0 "D5" V 5996 2880 50  0000 R CNN
+F 1 "D_Small" V 5905 2880 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 5950 2950 50  0001 C CNN
+F 3 "~" V 5950 2950 50  0001 C CNN
+	1    5950 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5950 3050
+Wire Wire Line
+	5950 3050 6300 3050
+$Comp
+L Device:D_Small D8
+U 1 1 608C91A9
+P 6300 2950
+F 0 "D8" V 6346 2880 50  0000 R CNN
+F 1 "D_Small" V 6255 2880 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6300 2950 50  0001 C CNN
+F 3 "~" V 6300 2950 50  0001 C CNN
+	1    6300 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6300 3050
+Wire Wire Line
+	6300 3050 6650 3050
+$Comp
+L Device:D_Small D11
+U 1 1 608C99A9
+P 6650 2950
+F 0 "D11" V 6696 2880 50  0000 R CNN
+F 1 "D_Small" V 6605 2880 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 2950 50  0001 C CNN
+F 3 "~" V 6650 2950 50  0001 C CNN
+	1    6650 2950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6650 3050
+Wire Wire Line
+	6650 3050 7000 3050
+$Comp
+L Device:D_Small D15
+U 1 1 608C9E14
+P 7000 2950
+F 0 "D15" V 7046 2880 50  0000 R CNN
+F 1 "D_Small" V 6955 2880 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7000 2950 50  0001 C CNN
+F 3 "~" V 7000 2950 50  0001 C CNN
+	1    7000 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 608DA45D
+P 5600 3600
+F 0 "D3" V 5646 3530 50  0000 R CNN
+F 1 "D_Small" V 5555 3530 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 5600 3600 50  0001 C CNN
+F 3 "~" V 5600 3600 50  0001 C CNN
+	1    5600 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 608DAEA0
+P 5950 3600
+F 0 "D6" V 5996 3530 50  0000 R CNN
+F 1 "D_Small" V 5905 3530 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 5950 3600 50  0001 C CNN
+F 3 "~" V 5950 3600 50  0001 C CNN
+	1    5950 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 608E2755
+P 6300 3600
+F 0 "D9" V 6346 3530 50  0000 R CNN
+F 1 "D_Small" V 6255 3530 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6300 3600 50  0001 C CNN
+F 3 "~" V 6300 3600 50  0001 C CNN
+	1    6300 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 608E2CEE
+P 6650 3600
+F 0 "D12" V 6696 3530 50  0000 R CNN
+F 1 "D_Small" V 6605 3530 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 3600 50  0001 C CNN
+F 3 "~" V 6650 3600 50  0001 C CNN
+	1    6650 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 608E3148
+P 7000 3600
+F 0 "D16" V 7046 3530 50  0000 R CNN
+F 1 "D_Small" V 6955 3530 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7000 3600 50  0001 C CNN
+F 3 "~" V 7000 3600 50  0001 C CNN
+	1    7000 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 3700 5600 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 607571B2
+P 7050 3350
+F 0 "MX16" H 7083 3573 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 3499 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 6425 3325 60  0001 C CNN
+F 3 "" H 6425 3325 60  0001 C CNN
+	1    7050 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 3700
+Connection ~ 5950 3700
+Wire Wire Line
+	5950 3700 6300 3700
+Connection ~ 6300 3700
+Wire Wire Line
+	6300 3700 6650 3700
+Connection ~ 6650 3700
+Wire Wire Line
+	6650 3700 7000 3700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 60758BCF
+P 7050 3950
+F 0 "MX17" H 7083 4173 60  0000 C CNN
+F 1 "MX-NoLED" H 7083 4099 20  0000 C CNN
+F 2 "mbk:Choc-1u-solder" H 6425 3925 60  0001 C CNN
+F 3 "" H 6425 3925 60  0001 C CNN
+	1    7050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4300 6650 4300
+$Comp
+L Device:D_Small D13
+U 1 1 60917401
+P 6650 4200
+F 0 "D13" V 6696 4130 50  0000 R CNN
+F 1 "D_Small" V 6605 4130 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 6650 4200 50  0001 C CNN
+F 3 "~" V 6650 4200 50  0001 C CNN
+	1    6650 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 60917A3D
+P 7000 4200
+F 0 "D17" V 7046 4130 50  0000 R CNN
+F 1 "D_Small" V 6955 4130 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7000 4200 50  0001 C CNN
+F 3 "~" V 7000 4200 50  0001 C CNN
+	1    7000 4200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6650 4300
+Wire Wire Line
+	6650 4300 7000 4300
+Wire Wire Line
+	5800 1950 5800 2650
+Connection ~ 5800 2650
+Wire Wire Line
+	5600 3700 5950 3700
+Wire Wire Line
+	5800 2650 5800 3300
+Wire Wire Line
+	6150 2650 6150 3300
+Wire Wire Line
+	6150 1950 6150 2650
+Connection ~ 6150 2650
+Wire Wire Line
+	6500 1950 6500 2650
+Connection ~ 6500 2650
+Wire Wire Line
+	6500 2650 6500 3300
+Wire Wire Line
+	6850 1950 6850 2650
+Connection ~ 6850 2650
+Wire Wire Line
+	6850 2650 6850 3300
+Wire Wire Line
+	6850 3300 6850 3900
+Connection ~ 6850 3300
+Wire Wire Line
+	7200 1950 7200 2650
+Connection ~ 7200 2650
+Wire Wire Line
+	7200 2650 7200 3300
+Connection ~ 7200 3300
+Wire Wire Line
+	7200 3300 7200 3900
+Text GLabel 2200 3800 0    50   Input ~ 0
+row3
+Text GLabel 3850 3800 2    50   Input ~ 0
+col4
+$EndSCHEMATC
